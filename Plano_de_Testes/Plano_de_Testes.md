@@ -10,4 +10,8 @@
 
 **Status:** Em elaboracao
 
+## 1. Objetivo
+
+Este documento tem como objetivo definir a estratégia de testes para a aplicação Swag Labs, descrevendo o escopo, o ambiente, os critérios e as funcionalidades que serão validadas durante a execução dos testes manuais, garantindo a qualidade das funcionalidades críticas da aplicação.
+
 
