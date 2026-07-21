@@ -30,3 +30,46 @@ Navegação entre as páginas da aplicação;
 Preenchimento das informações do checkout;
 Finalização da compra;
 Validação do fluxo completo de compra (End-to-End).
+
+## 3. Fora do Escopo
+
+Nesta Sprint, não fazem parte do escopo deste projeto:
+
+Testes de performance e carga;
+Testes de APIs;
+Testes de segurança;
+Testes de compatibilidade entre diferentes navegadores e dispositivos.
+
+O foco desta etapa é a execução de testes funcionais manuais na aplicação web, validando os principais fluxos da jornada do usuário e garantindo o correto funcionamento das funcionalidades previstas na Sprint.
+
+## 4. Ambiente de Testes
+
+Nesta seção são descritos os ambientes e as condições necessárias para a execução dos testes da aplicação.
+
+| Item | Informação |
+| ---- | ---------- |
+| **Aplicação** | Swag Labs |
+| **Tipo** | Aplicação Web |
+| **URL** | https://www.saucedemo.com |
+| **Sistema Operacional** | Windows 11 |
+| **Navegador** | Google Chrome (versão instalada na máquina de testes) |
+| **Conexão com a Internet** | Obrigatória |
+
+### Massas de Teste
+
+Os testes serão executados utilizando as massas de teste disponibilizadas pela aplicação.
+
+#### Usuários
+
+- `standard_user`
+- `locked_out_user`
+- `problem_user`
+- `performance_glitch_user`
+- `error_user`
+- `visual_user`
+
+#### Senha
+
+```text
+secret_sauce
+```
