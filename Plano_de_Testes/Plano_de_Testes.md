@@ -17,14 +17,14 @@ Este documento tem como objetivo definir a estratégia de testes para a aplicaç
 
 ## 2. Escopo
 
-O escopo deste projeto contempla a validação das principais funcionalidades da aplicação Swag Labs, garantindo que os fluxos críticos estejam funcionando corretamente antes da liberação para produção.
+O escopo do projeto contempla a validação das principais funcionalidades da aplicação web Swag Labs, garantindo que os fluxos críticos estejam funcionando corretamente antes da liberação para produção.
 
 Serão realizados testes nas seguintes funcionalidades:
 
 Autenticação de usuários (login e logout);
 Validação das mensagens de erro de autenticação;
 Exibição e integridade do catálogo de produtos;
-Ordenação da listagem de produtos;
+Ordenação da listagem de produtos (A-Z, Z-A);
 Adição e remoção de produtos do carrinho;
 Navegação entre as páginas da aplicação;
 Preenchimento das informações do checkout;
