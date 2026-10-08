@@ -73,3 +73,38 @@ Os testes serão executados utilizando as massas de teste disponibilizadas pela 
 ```text
 secret_sauce
 ```
+
+## 5. Estratégia de Testes
+
+A estratégia adotada neste projeto consiste na validação dos principais fluxos da jornada do usuário, executando testes funcionais manuais de ponta a ponta (End-to-End) para garantir o correto funcionamento das funcionalidades contempladas nesta Sprint.
+
+A execução dos testes seguirá a seguinte sequência:
+
+- Autenticação (Login);
+- Navegação pela aplicação;
+- Validação do catálogo de produtos;
+- Adição e remoção de produtos do carrinho;
+- Preenchimento das informações do checkout;
+- Finalização da compra;
+- Logout da aplicação.
+
+Durante a execução dos testes, todas as evidências serão registradas e qualquer comportamento divergente do esperado será documentado por meio de um Bug Report no Jira, contendo a descrição do problema, passos para reprodução, severidade e evidências.
+
+Após a correção dos defeitos pela equipe de desenvolvimento, serão realizados os retestes necessários para validar a solução implementada e garantir que a funcionalidade esteja apta para publicação.
+
+## 6. Critérios de Entrada
+
+A execução dos testes será iniciada após a análise e compreensão da Story e dos requisitos da funcionalidade.
+
+Para início da execução, devem ser atendidos os seguintes critérios:
+
+- Story e requisitos da funcionalidade disponíveis e analisados;
+- Critérios de aceite definidos e compreendidos;
+- Regras de negócio identificadas;
+- Comportamento esperado da funcionalidade compreendido;
+- Funcionalidade disponível no ambiente de testes;
+- Ambiente de testes acessível e operacional;
+- Massa de testes disponível;
+- Casos de teste elaborados e cadastrados no Qase.
+
+Após o atendimento desses critérios, a execução dos testes poderá ser iniciada.
