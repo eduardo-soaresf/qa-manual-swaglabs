@@ -6,41 +6,70 @@
 
 **Responsavel:** Eduardo Soares
 
-**Data:** 18/07/2026
+**Data:** 09/11/2026
 
-**Status:** Em elaboracao
+**Status:** Em elaboracão
 
 ## 1. Objetivo
 
-Este documento tem como objetivo definir a estratégia de testes para a aplicação Swag Labs, descrevendo o escopo, o ambiente, os critérios e as funcionalidades que serão validadas durante a execução dos testes manuais, garantindo a qualidade das funcionalidades críticas da aplicação e proporcionando uma experiência consistente ao usuário final.
+Este documento tem como objetivo estabelecer o planejamento e a estratégia de testes funcionais manuais da aplicação web Swag Labs, definindo o escopo, o ambiente, os critérios e as atividades necessárias para avaliar o comportamento das principais funcionalidades da aplicação.
+
+O projeto tem como finalidade simular um processo de QA em um ambiente de desenvolvimento de software, contemplando desde a análise dos requisitos até a execução dos testes, identificação de defeitos e registro de evidências.
 
 
 ## 2. Escopo
 
-O escopo do projeto contempla a validação das principais funcionalidades da aplicação web Swag Labs, garantindo que os fluxos críticos estejam funcionando corretamente antes da liberação para produção.
+O escopo contempla a validação das principais funcionalidades da aplicação Swag Labs, organizadas em três áreas:
 
-Serão realizados testes nas seguintes funcionalidades:
+Acesso à aplicação
 
-Autenticação de usuários (login e logout);
-Validação das mensagens de erro de autenticação;
-Exibição e integridade do catálogo de produtos;
-Ordenação da listagem de produtos (A-Z, Z-A);
+Realização de login com credenciais válidas e inválidas;
+
+Tratamento de tentativas de acesso por usuários bloqueados;
+
+Realização de logout.
+
+Catálogo de produtos
+
+Exibição e integridade das informações dos produtos;
+
+Validação de nomes, imagens, descrições e preços;
+
+Ordenação dos produtos por nome (A-Z e Z-A);
+
+Ordenação dos produtos por preço (menor para maior e maior para menor);
+
+Visualização dos detalhes dos produtos.
+
+Jornada de compra
+
 Adição e remoção de produtos do carrinho;
-Navegação entre as páginas da aplicação;
-Preenchimento das informações do checkout;
-Finalização da compra;
-Validação do fluxo completo de compra (End-to-End).
+
+Visualização dos produtos adicionados;
+
+Navegação entre as etapas do checkout;
+
+Preenchimento das informações solicitadas;
+
+Revisão e confirmação do pedido;
+
+Validação da confirmação da compra;
+
+Teste do fluxo completo de compra (End-to-End).
+
+Os testes serão organizados e executados de acordo com os requisitos e critérios de aceite definidos para cada User Story, considerando os fluxos funcionais e as regras de negócio da aplicação.
 
 ## 3. Fora do Escopo
 
-Nesta Sprint, não fazem parte do escopo deste projeto:
-
 Testes de performance e carga;
+
 Testes de APIs;
+
 Testes de segurança;
+
 Testes de compatibilidade entre diferentes navegadores e dispositivos.
 
-O foco desta etapa é a execução de testes funcionais manuais na aplicação web, validando os principais fluxos da jornada do usuário e garantindo o correto funcionamento das funcionalidades previstas na Sprint.
+O foco deste projeto está na execução de testes funcionais manuais em uma aplicação web, com ênfase na validação dos requisitos, dos comportamentos esperados e dos principais fluxos de utilização.
 
 ## 4. Ambiente de Testes
 
