@@ -81,7 +81,7 @@ Nesta seção são descritos os ambientes e as condições necessárias para a e
 | **Tipo** | Aplicação Web |
 | **URL** | https://www.saucedemo.com |
 | **Sistema Operacional** | Windows 11 |
-| **Navegador** | Google Chrome (versão instalada na máquina de testes) |
+| **Navegador** | Google Chrome (Versão 155.0.8059.84 (Versão oficial) 64 bits) |
 | **Conexão com a Internet** | Obrigatória |
 
 ### Massas de Teste
@@ -105,35 +105,71 @@ secret_sauce
 
 ## 5. Estratégia de Testes
 
-A estratégia adotada neste projeto consiste na validação dos principais fluxos da jornada do usuário, executando testes funcionais manuais de ponta a ponta (End-to-End) para garantir o correto funcionamento das funcionalidades contempladas nesta Sprint.
+Os testes serão realizados manualmente, com foco na validação funcional das funcionalidades contempladas no escopo do projeto.
 
-A execução dos testes seguirá a seguinte sequência:
+A estratégia será organizada por histórias de usuário, considerando suas regras de negócio, critérios de aceitação e comportamentos esperados.
 
-- Autenticação (Login);
-- Navegação pela aplicação;
-- Validação do catálogo de produtos;
-- Adição e remoção de produtos do carrinho;
-- Preenchimento das informações do checkout;
-- Finalização da compra;
-- Logout da aplicação.
+As atividades incluem:
 
-Durante a execução dos testes, todas as evidências serão registradas e qualquer comportamento divergente do esperado será documentado por meio de um Bug Report no Jira, contendo a descrição do problema, passos para reprodução, severidade e evidências.
+- Análise dos requisitos e critérios de aceitação.
+- Elaboração e organização dos casos de teste no Qase.
+- Execução dos testes funcionais e dos principais fluxos de ponta a ponta.
+- Registro dos resultados e evidências das execuções.
+- Identificação e documentação de defeitos no Jira, incluindo descrição, passos para reprodução, resultado esperado, resultado obtido e evidências.
+- Reexecução dos testes após correções e realização de testes de regressão quando necessário.
 
-Após a correção dos defeitos pela equipe de desenvolvimento, serão realizados os retestes necessários para validar a solução implementada e garantir que a funcionalidade esteja apta para publicação.
+Os resultados serão acompanhados para identificar falhas, avaliar a cobertura dos requisitos e verificar se as funcionalidades atendem ao comportamento esperado.
 
 ## 6. Critérios de Entrada
 
-A execução dos testes será iniciada após a análise e compreensão da Story e dos requisitos da funcionalidade.
+## 6. Critérios de Entrada
 
-Para início da execução, devem ser atendidos os seguintes critérios:
+Para iniciar a execução dos testes, os seguintes critérios devem ser atendidos:
 
-- Story e requisitos da funcionalidade disponíveis e analisados;
-- Critérios de aceite definidos e compreendidos;
-- Regras de negócio identificadas;
-- Comportamento esperado da funcionalidade compreendido;
-- Funcionalidade disponível no ambiente de testes;
-- Ambiente de testes acessível e operacional;
-- Massa de testes disponível;
+- Histórias de usuário disponíveis e analisadas.
+- Requisitos e regras de negócio identificados.
+- Critérios de aceitação definidos e compreendidos.
+- Comportamentos esperados documentados.
+- Ambiente de testes acessível e operacional.
+- Dados de teste disponíveis.
 - Casos de teste elaborados e cadastrados no Qase.
 
-Após o atendimento desses critérios, a execução dos testes poderá ser iniciada.
+## 7. Critérios de Saída
+
+A etapa de testes será considerada concluída quando:
+
+- Todos os casos de teste planejados para o escopo forem executados.
+- Os resultados das execuções estiverem registrados no Qase.
+- As evidências relevantes estiverem documentadas.
+- Os defeitos identificados estiverem registrados no Jira.
+- Os defeitos corrigidos tiverem sido retestados.
+- Os resultados, pendências e riscos conhecidos estiverem consolidados.
+
+## 8. Tipos de Teste
+
+Serão aplicados os seguintes tipos de teste:
+
+- **Teste funcional:** verifica se as funcionalidades atendem aos requisitos e critérios de aceitação.
+- **Teste positivo:** valida o comportamento esperado com dados e condições válidas.
+- **Teste negativo:** verifica o tratamento de entradas inválidas e situações não permitidas.
+- **Teste exploratório:** permite investigar comportamentos e identificar falhas além dos cenários previamente documentados.
+- **Teste de regressão:** verifica se alterações ou correções não impactaram funcionalidades existentes.
+- **Teste ponta a ponta (E2E):** valida a jornada completa do usuário, desde o acesso à aplicação até a finalização da compra.
+
+## 9. Ferramentas Utilizadas
+
+- **Jira:** gerenciamento das histórias de usuário, critérios de aceitação, backlog e registro de defeitos.
+- **Qase:** organização dos casos de teste, execução, resultados e evidências.
+- **GitHub:** documentação do projeto, versionamento e histórico das atividades.
+- **Google Chrome:** navegador utilizado para execução dos testes.
+- **Swag Labs:** aplicação web utilizada como objeto de testes.
+
+## 10. Riscos e Considerações
+
+- Comportamentos específicos da aplicação podem apresentar falhas que impactem a execução dos testes.
+- Indisponibilidade ou instabilidade do ambiente pode impedir a realização de determinados cenários.
+- Dados de teste inadequados podem comprometer os resultados das validações.
+- Alterações nos requisitos ou critérios de aceitação podem exigir revisão dos casos de teste.
+- Correções realizadas durante o processo podem demandar novos testes e regressões.
+
+Os riscos identificados serão considerados durante o planejamento e a execução, com registro de eventuais impactos nos resultados.
