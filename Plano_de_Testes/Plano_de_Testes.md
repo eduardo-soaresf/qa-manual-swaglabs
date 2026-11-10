@@ -8,7 +8,7 @@
 
 **Data:** 09/11/2026
 
-**Status:** Em elaboracão
+**Status:** Em elaboração
 
 ## 1. Objetivo
 
