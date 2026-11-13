@@ -124,8 +124,6 @@ Os resultados serão acompanhados para identificar falhas, avaliar a cobertura d
 
 Para iniciar a execução dos testes, os seguintes critérios devem ser atendidos:
 
-Para iniciar a execução dos testes, os seguintes critérios devem ser atendidos:
-
 - Histórias de usuário disponíveis e analisadas.
 - Requisitos e regras de negócio identificados.
 - Critérios de aceitação definidos e compreendidos.
@@ -138,7 +136,8 @@ Para iniciar a execução dos testes, os seguintes critérios devem ser atendido
 
 A etapa de testes será considerada concluída quando:
 
-- Todos os casos de teste planejados para o escopo forem executados.
+- Todos os casos de teste planejados devem ter sido executados ou ter seu impedimento devidamente justificado.
+- Os resultados das execuções devem estar registrados no Qase.
 - Os resultados das execuções estiverem registrados no Qase.
 - As evidências relevantes estiverem documentadas.
 - Os defeitos identificados estiverem registrados no Jira.
@@ -156,7 +155,7 @@ Serão aplicados os seguintes tipos de teste:
 - **Teste de regressão:** verifica se alterações ou correções não impactaram funcionalidades existentes.
 - **Teste ponta a ponta (E2E):** valida a jornada completa do usuário, desde o acesso à aplicação até a finalização da compra.
 
-## 9. Ferramentas Utilizadas
+## 9. Ferramentas e Tecnologias
 
 - **Jira:** gerenciamento das histórias de usuário, critérios de aceitação, backlog e registro de defeitos.
 - **Qase:** organização dos casos de teste, execução, resultados e evidências.
