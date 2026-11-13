@@ -103,7 +103,6 @@ Os testes serão executados utilizando as massas de teste disponibilizadas pela 
 secret_sauce
 ```
 
-<<<<<<< HEAD
 ## 5. Estratégia de Testes
 
 Os testes serão realizados manualmente, com foco na validação funcional das funcionalidades contempladas no escopo do projeto.
@@ -174,21 +173,3 @@ Serão aplicados os seguintes tipos de teste:
 - Correções realizadas durante o processo podem demandar novos testes e regressões.
 
 Os riscos identificados serão considerados durante o planejamento e a execução, com registro de eventuais impactos nos resultados.
-=======
-A estratégia adotada neste projeto consiste na validação dos principais fluxos da jornada do usuário, executando testes funcionais manuais de ponta a ponta (End-to-End) para garantir o correto funcionamento das funcionalidades contempladas nesta Sprint.
-
-A execução dos testes seguirá a seguinte sequência:
-
-- Autenticação (Login);
-- Navegação pela aplicação;
-- Validação do catálogo de produtos;
-- Adição e remoção de produtos do carrinho;
-- Preenchimento das informações do checkout;
-- Finalização da compra;
-- Logout da aplicação.
-
-Durante a execução dos testes, todas as evidências serão registradas e qualquer comportamento divergente do esperado será documentado por meio de um Bug Report no Jira, contendo a descrição do problema, passos para reprodução, severidade e evidências.
-
-Após a correção dos defeitos pela equipe de desenvolvimento, serão realizados os retestes necessários para validar a solução implementada e garantir que a funcionalidade esteja apta para publicação.
-
->>>>>>> 7862abf (Atualiza README e plano de testes)
