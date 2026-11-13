@@ -103,9 +103,9 @@ Os testes serão executados utilizando as massas de teste disponibilizadas pela 
 secret_sauce
 ```
 
+<<<<<<< HEAD
 ## 5. Estratégia de Testes
 
-<<<<<<< HEAD
 Os testes serão realizados manualmente, com foco na validação funcional das funcionalidades contempladas no escopo do projeto.
 
 A estratégia será organizada por histórias de usuário, considerando suas regras de negócio, critérios de aceitação e comportamentos esperados.
@@ -123,7 +123,7 @@ Os resultados serão acompanhados para identificar falhas, avaliar a cobertura d
 
 ## 6. Critérios de Entrada
 
-## 6. Critérios de Entrada
+Para iniciar a execução dos testes, os seguintes critérios devem ser atendidos:
 
 Para iniciar a execução dos testes, os seguintes critérios devem ser atendidos:
 
